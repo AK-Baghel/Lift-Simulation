@@ -1,16 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    max-height:100% ;
 }
-body{
+/* body{
     background-image: url('./images/bg.jpg');
     background-repeat: no-repeat;
-    background-size:110%;
+    background-size:115%;
     overflow: hidden;
     background-position: top center;
     
-}
+} */
 .firstPage{
     width: 44vh;
     margin: 190px auto;
@@ -165,15 +164,19 @@ h2 {
     height: 56px;
     margin: 1px;
     border: 1px solid rgb(227, 54, 54);
-    background-color: rgb(244, 27, 255);
+    background-color: rgb(166, 0, 255);
     transition: width 2.5s ;
 }
 .secondPage{
     background-color: white;
+    margin-bottom: 40px;
 }
 
 @media (max-width:786px){
-    body{
+    /* body{
         background-size:400%;
+    } */
+    .firstPage{
+        width: 38vh;
     }
 }
