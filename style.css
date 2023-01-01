@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-height:100% ;
+}
+body{
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size:110%;
+    overflow: hidden;
+    background-position: top center;
+    
+}
+.firstPage{
+    width: 44vh;
+    margin: 190px auto;
+    background-color: rgba(236, 207, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+}
+input{
+    padding-left:5px ;
+    height: 20px;
+    margin: 0px 4px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(182, 182, 182);
+    background-color: rgb(255, 255, 255);
+}
+label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input:focus{
+    border: 2px solid rgb(33, 133, 255);
+}
+h1{
+    margin: 5px 0px 20px 0px;
+    color: rgb(39, 39, 39);
+}
+.noOfFloor ,.noOfLift {
+    margin-top: 18px;
+}
+.secondPage{
+    display: none;
+}
+.hrfloorName{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+}
+.hrfloorName:hover{
+    color: red;
+}
+hr{
+    flex-grow:1;
+    margin-top: 7px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+hr:hover{
+    border-color: rgb(0, 64, 255);
+} 
+.createLiftFloorButton{
+    margin: 24px 0px 0px 0px;
+    width: 200px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgb(55, 115, 244);
+}
+.createLiftFloorButton:hover{
+    background-color: rgb(68, 195, 68);
+}
+
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+ .button{
+    width:50px;
+    display: flex;
+    flex-direction: column;
+    margin: 11px 18px;
+    
+ }
+ .button button{
+    margin: 2px;
+    font-weight: bold;
+ }
+ .up{
+    background-color: rgb(26, 225, 225);
+    border: 1px solid gray;
+    border-radius:5px ;
+    cursor: pointer;
+ }
+ .up:hover{
+    /* background-color: rgb(87, 245, 147); */
+    border: 1px solid black;
+ }
+ .down{
+    background-color: rgb(255, 245, 55);
+    border: 1px solid gray;
+    border-radius:5px ;
+    cursor: pointer;
+ }
+ .down:hover{
+    /* background-color: rgb(255, 255, 0); */
+    border: 1px solid black;
+ }
+.goToFirstPage{
+    font-size: 18x;
+    margin: 5px 0 10px 3px ;
+    background-color: red;
+    color: white;
+    width:60px;
+    height: 23px;
+    cursor: pointer;
+}
+.buttonLift{
+    display: flex;
+    margin-top: 6px;
+}
+.social {
+    margin-top: 15px;
+}
+.social a{
+    margin: 0px 10px;
+    /* color: blue; */
+}
+
+.lift{
+    width: 50px;
+    height: 60px;
+    background-color: rgb(255, 255, 55);
+    border: 2px solid black;
+    margin-right: 10px;
+    transition-property:transform;
+    transition-timing-function:ease-in;
+}
+
+.mainLift{
+    display: flex;
+    margin-left: 10px;
+}    
+.gates{
+    display: flex;
+}
+.gate1 , .gate2{
+    width: 25px;
+    height: 56px;
+    margin: 1px;
+    border: 1px solid rgb(227, 54, 54);
+    background-color: rgb(244, 27, 255);
+    transition: width 2.5s ;
+}
+.secondPage{
+    background-color: white;
+}
+
+@media (max-width:786px){
+    body{
+        background-size:400%;
+    }
+}
