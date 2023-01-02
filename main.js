@@ -7,14 +7,14 @@ restart.addEventListener('click', hideSecondPage);
 function hideFirstPage() {
     document.querySelector('.firstPage').style.display = 'none';
     document.querySelector('.secondPage').style.display = 'block';
-    document.body.style.backgroundImage='none';
+    // document.body.style.backgroundImage='none';
     makingFloors();
 }
 
 function hideSecondPage() {
     document.querySelector('.secondPage').style.display = 'none';
     document.querySelector('.firstPage').style.display = 'block';
-    document.body.style.backgroundImage="url('./images/bg.jpg')";
+    // document.body.style.backgroundImage="url('./images/bg.jpg')";
     deletingFloors();
     
 }
@@ -223,13 +223,13 @@ function gateopenclose(liftno) {
     setTimeout(() => {
         gates.children[0].style.width = '3px';
         gates.children[1].style.width = '3px';
-        console.log("heloo 1234567890")
+        // console.log("heloo 1234567890")
     }, 1000);
 
     setTimeout(() => {
         gates.children[0].style.width = '25px';
         gates.children[1].style.width = '25px';
-        console.log("heloo 1234567890")
+        // console.log("heloo 1234567890")
     }, 3500);
 }
 
