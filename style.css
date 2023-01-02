@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:cursive;
 }
 /* body{
     background-image: url('./images/bg.jpg');
@@ -11,7 +12,7 @@
     
 } */
 .firstPage{
-    width: 44vh;
+    width: 60vh;
     margin: 190px auto;
     background-color: rgba(236, 207, 255, 0.6);
     padding: 20px;
@@ -29,7 +30,7 @@ input{
     background-color: rgb(255, 255, 255);
 }
 label{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:cursive
 }
 input:focus{
     border: 2px solid rgb(33, 133, 255);
