@@ -3,7 +3,7 @@ let simulate = document.querySelector('.createLiftFloorButton');
 simulate.addEventListener('click', hideFirstPage);
 let restart = document.querySelector('.goToFirstPage');
 restart.addEventListener('click', hideSecondPage);
-const mediaQuery = window.matchMedia('(max-width: 768px)')
+const mediaQuery = window.matchMedia('(width: 768px)')
 
 
 function hideFirstPage() {
