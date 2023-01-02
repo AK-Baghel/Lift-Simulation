@@ -198,7 +198,7 @@ function makingFloors() {
 function moveLift(liftno, floorNo, oldFloorValue) {
 
     if(mediaQuery.matches){
-        liftno.style.transform = `translateY(${-90 * (floorNo - 1)}px)`;
+        liftno.style.transform = `translateY(${-95 * (floorNo - 1)}px)`;
     }    
 
     liftno.style.transform = `translateY(${-88 * (floorNo - 1)}px)`;
