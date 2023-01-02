@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:cursive;
 }
 /* body{
     background-image: url('./images/bg.jpg');
@@ -179,5 +178,10 @@ h2 {
     } */
     .firstPage{
         width: 38vh;
+    }
+    .hrfloorName{
+        /* display: flex;
+        flex-direction: row; */
+        margin: 0px 0px;
     }
 }
