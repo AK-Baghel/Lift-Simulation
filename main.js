@@ -3,7 +3,7 @@ let simulate = document.querySelector('.createLiftFloorButton');
 simulate.addEventListener('click', hideFirstPage);
 let restart = document.querySelector('.goToFirstPage');
 restart.addEventListener('click', hideSecondPage);
-const mediaQuery = window.matchMedia('(width: 768px)')
+// const mediaQuery = window.matchMedia('(width: 768px)')
 
 
 function hideFirstPage() {
@@ -197,9 +197,9 @@ function makingFloors() {
 
 function moveLift(liftno, floorNo, oldFloorValue) {
 
-    if(mediaQuery.matches){
-        liftno.style.transform = `translateY(${-95 * (floorNo - 1)}px)`;
-    }    
+    // if(mediaQuery.matches){
+    //     liftno.style.transform = `translateY(${-95 * (floorNo - 1)}px)`;
+    // }    
 
     liftno.style.transform = `translateY(${-88 * (floorNo - 1)}px)`;
     // // console.log('prev',prev)
