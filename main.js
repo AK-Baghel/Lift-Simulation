@@ -83,6 +83,13 @@ function makingFloors() {
 
         document.querySelector('.secondPage').appendChild(floordiv);
 
+        if(i==floorInput){
+            button1.style.display ='none';
+        }
+        if(i==1){
+            button2.style.display='none'
+        }
+
 
     }
   
