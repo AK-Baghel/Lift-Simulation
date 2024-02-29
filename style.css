@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background-image: url('./images/bg.jpg');
+/*     background-image: url('./images/bg.jpg'); */
+    background-color:#0D1117;
     background-repeat: no-repeat;
     background-size:115%;
     overflow: hidden;
