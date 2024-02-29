@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
 }
-/* body{
+body{
     background-image: url('./images/bg.jpg');
     background-repeat: no-repeat;
     background-size:115%;
     overflow: hidden;
     background-position: top center;
     
-} */
+}
 .firstPage{
     width: 60vh;
     margin: 190px auto;
