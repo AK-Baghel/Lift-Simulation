@@ -4,7 +4,7 @@
 }
 body{
 /*     background-image: url('./images/bg.jpg'); */
-    background-color:#0D1117;
+/*     background-color:#0D1117; */
     background-repeat: no-repeat;
     background-size:115%;
     overflow: hidden;
@@ -14,7 +14,8 @@ body{
 .firstPage{
     width: 60vh;
     margin: 190px auto;
-    background-color: rgba(236, 207, 255, 0.6);
+/*     background-color: rgba(236, 207, 255, 0.6); */
+    background-color:#F78166;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
